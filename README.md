@@ -1,4 +1,3 @@
-```markdown
 # GiT Team Workflow Template
 
 This is a template designed for team collaboration within the GiT workflow. 
