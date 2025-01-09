@@ -2,6 +2,29 @@
 
 This is a template designed for team collaboration within the GiT workflow. 
 It is built with React, Vite, Tailwind CSS, ShadCN UI, and TypeScript.
+## Installation
+
+To get started with this template, follow these steps:
+
+### Clone the repository
+Clone this repository to your local machine using the following command:
+
+```bash
+git clone <repository-url>
+```
+### Install dependencies:
+Navigate to the project directory and install the necessary dependencies:
+``` bash
+cd <project-directory>
+npm install
+```
+
+###Run the development server:
+After the dependencies are installed, you can start the development server using:
+``` bash
+npm run dev
+```
+The app will be running on http://localhost:5174 by default.
 
 ## How to Use
 
