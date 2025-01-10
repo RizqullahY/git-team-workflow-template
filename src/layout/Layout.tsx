@@ -43,19 +43,18 @@ const Layout: React.FC = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-center text-4xl font-bold text-blue-600 mb-6">Webpage</h1>
+    <div className="min-h-screen bg-slate-500 p-6">
+      <h1 className="text-center text-4xl font-bold text-slate-50 mb-6">Webpage</h1>
       
-      <div className="mb-4">
+      <div className="mb-4 text-white">
         <Input
-          placeholder="Search Pages"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="w-full max-w-md mx-auto"
         />
       </div>
 
-      <nav className="mb-6">
+      <nav className="mb-6 w-96 mx-auto">
         <ul className="space-y-2 max-h-60 overflow-y-auto">
           {filteredPages.length === 0 ? (
             <li className="text-center text-gray-500">No pages found</li>
@@ -64,7 +63,7 @@ const Layout: React.FC = () => {
               <li key={path} className="hover:bg-blue-50 rounded-md transition">
                 <Link
                   to={path}
-                  className="block px-4 py-2 text-lg text-blue-700 hover:text-white hover:bg-blue-600 rounded-md"
+                  className="block px-4 py-2 text-lg text-slate-200 hover:text-white hover:bg-slate-600 rounded-md"
                 >
                   {path}
                 </Link>
